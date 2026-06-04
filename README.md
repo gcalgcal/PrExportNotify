@@ -10,8 +10,8 @@ Premiere Pro の書き出し・レンダリング完了を通知音でお知ら�
 
 **[最新版をダウンロード / Download the latest release](https://github.com/gcalgcal/PrExportNotify/releases/latest)**
 
-[Releases](https://github.com/gcalgcal/PrExportNotify/releases/latest) ページの `PrExportNotify.zip` を展開し、`PrExportNotify.app` をアプリケーションフォルダへ移動してください。
-Download `PrExportNotify.zip` from the [Releases](https://github.com/gcalgcal/PrExportNotify/releases/latest) page, unzip it, and move `PrExportNotify.app` to your Applications folder.
+[Releases](https://github.com/gcalgcal/PrExportNotify/releases/latest) ページの `PrExportNotify.dmg` をダウンロードして開き、`PrExportNotify` フォルダを `Applications` にドラッグしてください。
+Download `PrExportNotify.dmg` from the [Releases](https://github.com/gcalgcal/PrExportNotify/releases/latest) page, open it, and drag the `PrExportNotify` folder into `Applications`.
 
 ---
 
@@ -33,9 +33,12 @@ Download `PrExportNotify.zip` from the [Releases](https://github.com/gcalgcal/Pr
 
 ### インストール
 
-1. `PrExportNotify.app` をアプリケーションフォルダ等にコピー
-2. ダブルクリックで起動（公証済みのため警告なしで開けます）
-3. **システム設定 → プライバシーとセキュリティ → アクセシビリティ** で PrExportNotify を許可
+1. `PrExportNotify.dmg` をダウンロードして開く
+2. 表示された `PrExportNotify` フォルダを `Applications` にドラッグ
+   （フォルダごと移動すると、アプリと `alert.wav` が一緒に入ります）
+3. `Applications/PrExportNotify/PrExportNotify.app` をダブルクリックで起動
+   （公証済みのため警告なしで開けます）
+4. **システム設定 → プライバシーとセキュリティ → アクセシビリティ** で PrExportNotify を許可
 
 ### 使い方
 
@@ -76,9 +79,12 @@ Download `PrExportNotify.zip` from the [Releases](https://github.com/gcalgcal/Pr
 
 ### Installation
 
-1. Copy `PrExportNotify.app` to your Applications folder
-2. Double-click to launch (notarized, so it opens without warnings)
-3. Allow PrExportNotify in **System Settings → Privacy & Security → Accessibility**
+1. Download and open `PrExportNotify.dmg`
+2. Drag the `PrExportNotify` folder into `Applications`
+   (moving the whole folder keeps the app and `alert.wav` together)
+3. Launch `Applications/PrExportNotify/PrExportNotify.app`
+   (notarized, so it opens without warnings)
+4. Allow PrExportNotify in **System Settings → Privacy & Security → Accessibility**
 
 ### Usage
 
