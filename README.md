@@ -52,9 +52,9 @@ Download `PrExportNotify.zip` from the [Releases](https://github.com/gcalgcal/Pr
 
 ### カスタム通知音
 
-アプリと同じフォルダに `alert.wav` を配置すると、その音が通知音として使われます。
-配置しない場合はシステムサウンド「Glass」が再生されます。
-サンプル音 [`alert_sample.wav`](alert_sample.wav) を `alert.wav` にリネームして利用できます。
+デフォルトの通知音はアプリに組み込まれているため、そのままでも音が鳴ります。
+通知音を変えたい場合は、アプリと同じフォルダにある [`alert.wav`](alert.wav) を
+お好きな WAV ファイルに置き換えてください（ファイル名は `alert.wav` のまま）。
 
 ---
 
@@ -93,9 +93,9 @@ Click the bell icon in the menu bar to open the menu.
 
 ### Custom Sound
 
-Place an `alert.wav` file in the same folder as the app to use it as the notification sound.
-If absent, the system sound "Glass" is played instead.
-You can rename the bundled [`alert_sample.wav`](alert_sample.wav) to `alert.wav` to use it.
+A default notification sound is bundled inside the app, so it works out of the box.
+To change it, replace the [`alert.wav`](alert.wav) file next to the app with your own
+WAV file (keep the filename `alert.wav`).
 
 ---
 
