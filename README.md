@@ -6,6 +6,13 @@ Premiere Pro の書き出し・レンダリング完了を通知音でお知ら�
 
 **🇯🇵 [日本語](#日本語) ・ 🇬🇧 [English](#english)**
 
+### ⬇️ ダウンロード / Download
+
+**[最新版をダウンロード / Download the latest release](https://github.com/gcalgcal/PrExportNotify/releases/latest)**
+
+[Releases](https://github.com/gcalgcal/PrExportNotify/releases/latest) ページの `PrExportNotify.zip` を展開し、`PrExportNotify.app` をアプリケーションフォルダへ移動してください。
+Download `PrExportNotify.zip` from the [Releases](https://github.com/gcalgcal/PrExportNotify/releases/latest) page, unzip it, and move `PrExportNotify.app` to your Applications folder.
+
 ---
 
 ## 日本語
