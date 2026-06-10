@@ -14,7 +14,49 @@ Premiere Pro の書き出し・レンダリング完了を通知音でお知ら�
 Download `PrExportNotify.dmg` from the [Releases](https://github.com/gcalgcal/PrExportNotify/releases/latest) page, open it, and drag the `PrExportNotify` folder into `Applications`.
 
 ---
+## English
 
+### Features
+
+- 📤 Automatically detects when Premiere Pro finishes exporting / rendering / encoding
+- 🔔 Plays a notification sound on completion (10 languages supported)
+- 🎵 Supports custom notification sounds (place `alert.wav` in the same folder)
+- 🚀 Launch at login (macOS 13 or later)
+- 🪶 Lightweight menu bar app (does not appear in the Dock)
+
+### Requirements
+
+- macOS 11 (Big Sur) or later
+- Adobe Premiere Pro
+- Accessibility permission (required for window detection)
+
+### Installation
+
+1. Download and open `PrExportNotify.dmg`
+2. Drag the `PrExportNotify` folder into `Applications`
+   (moving the whole folder keeps the app and `alert.wav` together)
+3. Launch `Applications/PrExportNotify/PrExportNotify.app`
+   (notarized, so it opens without warnings)
+4. Allow PrExportNotify in **System Settings → Privacy & Security → Accessibility**
+
+### Usage
+
+Click the bell icon in the menu bar to open the menu.
+
+| Item | Description |
+|------|-------------|
+| Monitoring | Toggle monitoring ON / OFF |
+| Launch at Login | Auto-start at login (macOS 13+) |
+| Test Sound | Play the notification sound |
+| Quit | Quit the app |
+
+### Custom Sound
+
+A default notification sound is bundled inside the app, so it works out of the box.
+To change it, replace the [`alert.wav`](alert.wav) file next to the app with your own
+WAV file (keep the filename `alert.wav`).
+
+---
 ## 日本語
 
 ### 特長
@@ -58,50 +100,6 @@ Download `PrExportNotify.dmg` from the [Releases](https://github.com/gcalgcal/Pr
 デフォルトの通知音はアプリに組み込まれているため、そのままでも音が鳴ります。
 通知音を変えたい場合は、アプリと同じフォルダにある [`alert.wav`](alert.wav) を
 お好きな WAV ファイルに置き換えてください（ファイル名は `alert.wav` のまま）。
-
----
-
-## English
-
-### Features
-
-- 📤 Automatically detects when Premiere Pro finishes exporting / rendering / encoding
-- 🔔 Plays a notification sound on completion (10 languages supported)
-- 🎵 Supports custom notification sounds (place `alert.wav` in the same folder)
-- 🚀 Launch at login (macOS 13 or later)
-- 🪶 Lightweight menu bar app (does not appear in the Dock)
-
-### Requirements
-
-- macOS 11 (Big Sur) or later
-- Adobe Premiere Pro
-- Accessibility permission (required for window detection)
-
-### Installation
-
-1. Download and open `PrExportNotify.dmg`
-2. Drag the `PrExportNotify` folder into `Applications`
-   (moving the whole folder keeps the app and `alert.wav` together)
-3. Launch `Applications/PrExportNotify/PrExportNotify.app`
-   (notarized, so it opens without warnings)
-4. Allow PrExportNotify in **System Settings → Privacy & Security → Accessibility**
-
-### Usage
-
-Click the bell icon in the menu bar to open the menu.
-
-| Item | Description |
-|------|-------------|
-| Monitoring | Toggle monitoring ON / OFF |
-| Launch at Login | Auto-start at login (macOS 13+) |
-| Test Sound | Play the notification sound |
-| Quit | Quit the app |
-
-### Custom Sound
-
-A default notification sound is bundled inside the app, so it works out of the box.
-To change it, replace the [`alert.wav`](alert.wav) file next to the app with your own
-WAV file (keep the filename `alert.wav`).
 
 ---
 
